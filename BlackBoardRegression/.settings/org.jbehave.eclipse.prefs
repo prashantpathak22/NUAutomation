@@ -1,0 +1,4 @@
+classScanner/Package-excludes=apple.*, com.apple.*, quicktime.*|sun.*, com.sun.*, sunw.*|java.*, javax.*|com.oracle.*|org.eclipse.*|com.google.common*|junit*, org.junit*|org.omg.*, org.xml.*, org.w3c.*|org.ietf*, org.relaxng.*, org.jcp.*|org.codehaus.plexus*|fj*|org.xmlpull.*|com.thoughtworks.xstream*, com.thoughtworks.paranamer*|org.hamcrest*, org.mockito*, org.objenesis*|org.apache.*|freemarker*|*pages*
+classScanner/Package-includes=*stepdefinition*
+classScanner/use_project_settings=true
+eclipse.preferences.version=1

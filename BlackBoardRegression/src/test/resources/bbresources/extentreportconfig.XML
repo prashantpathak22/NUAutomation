@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+<configuration>
+<!-- report theme -->
+
+<!-- standard, dark -->
+
+<theme>standard</theme>
+<!-- document encoding -->
+
+<!-- defaults to UTF-8 -->
+
+<encoding>UTF-8</encoding>
+<!-- protocol for script and stylesheets -->
+
+<!-- defaults to https -->
+
+<protocol>http</protocol>
+<!-- title of the document -->
+<documentTitle>Blackboard Regression Dashboard</documentTitle>
+<!-- report name - displayed at top-nav -->
+
+<reportName>Blackboard Regression</reportName>
+
+<!-- global date format override -->
+<dateFormat>dd-MM-yyyy</dateFormat>
+
+<!-- global time format override -->
+<timeFormat>HH:mm:ss</timeFormat>
+
+
+<!-- location of charts in the test view -->
+
+<!-- top, bottom -->
+
+<testViewChartLocation>top</testViewChartLocation>
+<!-- custom javascript -->
+
+<scripts>
+
+<![CDATA[
+$(document).ready(function() {
+});
+]]>
+</scripts>
+<!-- custom styles -->
+<styles>
+<![CDATA[
+]]>
+</styles>
+</configuration>
+</extentreports>
